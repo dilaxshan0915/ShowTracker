@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Website Title & Description for Search Engine purposes -->
+
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="bodybg">
+
+
+<!--Nav Bar Codes-->
+<div class="topnav">
+  <a class="active" href="#showTracker">Show<b>Tracker</b></a>
+  <a href="index.html">Home</a>
+  <a href="add.html">Add</a>
+    <div class="topnav-right">
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </div>
+</div>
+
+<div class="page">
+<div class="page1">
+  <form onsubmit="index.html" style="max-width:500px;margin:auto">
+  <h2 id="login"><b> Log in </b></h2>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email" id="usname">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw" id="pswd">
+  </div>
+
+
+
+  <button type="submit" onclick="getInformation()" class="btn"><b> Log in </b></button>
+
+  <div><br>
+    <p><b>Forgot your password?</b></p>
+    <p class="he6">Don't have an Account yet? <a href="signup.html" class="signuplink">Sign up</a> </p>
+  </div>
+
+
+  <div class="">
+    <sup>_____________________</sup><b> or </b><sup>________________________</sup>
+  </div>
+
+<br>
+  <div class="">
+    <a href="#" class="fb btn1">
+      <i class="fa fa-facebook fa-fw"> </i>
+      Login with Facebook
+    </a>
+<br>
+    <a href="#" class="google btn1">
+      <i class="fa fa-google fa-fw"> </i>
+      Login with Google+
+    </a>
+  </div>
+
+</form>
+</div>
+</div>
+<script type="text/javascript" src="script-login.js">
+
+</script>
+  </body>
+</html>

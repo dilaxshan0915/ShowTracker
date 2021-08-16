@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SignUp Here</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Website Title & Description for Search Engine purposes -->
+
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script-signup.js">
+    </script>
+  </head>
+  <body class="bodybg">
+
+
+<!--Nav Bar Codes-->
+<div class="topnav">
+  <a class="active" href="#showTracker">Show<b>Tracker</b></a>
+  <a href="index.html">Home</a>
+  <a href="add.html">Add</a>
+    <div class="topnav-right">
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </div>
+</div>
+
+<div class="page">
+<div class="page1">
+  <table name="form1" style="max-width:95%;margin:auto">
+    <h2 id="login"><b> Sign Up </b></h2>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Name" name="username" id="name" required>
+      <p class="error-message"></p>
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="text" placeholder="Email" name="email" id="email" required>
+      <p class="error-message"></p>
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" placeholder="Password" name="password" id="psw"  required>
+      <p class="error-message"></p>
+    </div>
+
+    <div>
+      <p class="he6"> By clicking on Sign up, you are Agree to <a class="signuplink"> terms & conditions</a> and <a class="signuplink">privacy policy </a></p>
+    </div>
+
+    <button type="submit" class="btnsignup" onclick="registration()"><b> Sign up </b></button>
+<br><br>
+    <div>
+      <p class="he6"> Alredy have an Account? <a href="login.html" class="signuplink"> Log in now</a> </p>
+    </div>
+  </table>
+<script src="script-signup.js">
+
+</script>
